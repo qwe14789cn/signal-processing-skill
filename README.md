@@ -69,10 +69,6 @@ subplot(2,2,3); plot(real(sig_cw), imag(sig_cw), '.'); title('CW 星座图');
 subplot(2,2,4); sp.p3(sig_lfm + 0.3*sig_noise); title('含噪信号 3D轨迹');
 ```
 
-输出效果：
-
-![复信号可视化](复信号生成与可视化.png)
-
 ## 函数总览
 
 完整函数目录见 [references/function-catalog.md](references/function-catalog.md)，按域分类，包含函数签名和用途说明。
